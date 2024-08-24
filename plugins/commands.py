@@ -54,7 +54,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 ᴡʜᴀᴛ's ᴀᴘᴘ ɢʀᴏᴜᴘ ', url='https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
+            InlineKeyboardButton('💝 ᴡʜᴀᴛs ᴀᴘᴘ ɢʀᴏᴜᴘ ', url='https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Suport_Chat_BOT'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Sky_HD_Movies')
@@ -408,7 +408,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 ᴡʜᴀᴛ's ᴀᴘᴘ ɢʀᴏᴜᴘ ', url='https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
+            InlineKeyboardButton('💝 ᴡʜᴀᴛs ᴀᴘᴘ ɢʀᴏᴜᴘ ', url='https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Suport_Chat_BOT'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Sky_HD_Movies')
