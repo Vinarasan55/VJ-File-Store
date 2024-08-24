@@ -52,7 +52,7 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 ᴡʜᴀᴛ's ᴀᴘᴘ ɢʀᴏᴜᴘ ', url='https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
+            InlineKeyboardButton('💝 ᴡʜᴀᴛs ᴀᴘᴘ ɢʀᴏᴜᴘ ', url='https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
             ],[
@@ -180,7 +180,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 ᴡʜᴀᴛ's ᴀᴘᴘ ɢʀᴏᴜᴘ ', url='https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
+            InlineKeyboardButton('💝 ᴡʜᴀᴛs ᴀᴘᴘ ɢʀᴏᴜᴘ ', url='https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
             ],[
